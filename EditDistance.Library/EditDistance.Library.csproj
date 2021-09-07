@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DamerauLevenshtein.cs" />
+    <Compile Remove="DamerauLevenshteinV2.cs" />
+    <Compile Remove="DamerauLevenshteinV3.cs" />
+    <Compile Remove="NinjaNyeLevenshtein.cs" />
+    <Compile Remove="SimpleDamerauLevenshtein.cs" />
+  </ItemGroup>
+
+</Project>
